@@ -1,0 +1,22 @@
+<robot name="BigGlaven3">
+	<link name="_name">
+		<visual>
+			<origin rpy="0 0 0" xyz="-0.0013598513863009672 -0.0004653768346131338 0.0015405898631417076" />
+			<geometry>
+				<mesh filename="BigGlaven3.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="BigGlaven3_vhacd.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+		<origin rpy="0 0 0" xyz="-0.0013598513863009672 -0.0004653768346131338 0.0015405898631417076" /></collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+		</inertial>
+	</link>
+</robot>

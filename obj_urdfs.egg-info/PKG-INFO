@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: obj-urdfs
+Version: 0.1
+Summary: URDF models of objects for simulation.
+Home-page: UNKNOWN
+Author: Alex Church
+Author-email: alex.church@bristol.ac.uk
+License: LGPL
+Description: UNKNOWN
+Keywords: urdf model object simulation pybullet mujoco isaacgym obj shapenet ycb
+Platform: UNKNOWN
+Requires-Python: >=3

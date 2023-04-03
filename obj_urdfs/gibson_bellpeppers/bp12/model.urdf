@@ -1,0 +1,22 @@
+<robot name="bp12">
+	<link name="_name">
+		<visual>
+			<origin rpy="0 0 0" xyz="-0.000820336044198536 0.0035005327253525885 0.003023810774098045" />
+			<geometry>
+				<mesh filename="bp12.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="bp12_vhacd.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+		<origin rpy="0 0 0" xyz="-0.000820336044198536 0.0035005327253525885 0.003023810774098045" /></collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+		</inertial>
+	</link>
+</robot>

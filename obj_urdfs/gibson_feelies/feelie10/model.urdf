@@ -1,0 +1,22 @@
+<robot name="feelie10">
+	<link name="_name">
+		<visual>
+			<origin rpy="0 0 0" xyz="-0.005408183361060957 0.0041717100882888115 0.0022391349810680994" />
+			<geometry>
+				<mesh filename="feelie10.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="feelie10_vhacd.obj" scale="0.001 0.001 0.001" />
+			</geometry>
+		<origin rpy="0 0 0" xyz="-0.005408183361060957 0.0041717100882888115 0.0022391349810680994" /></collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+		</inertial>
+	</link>
+</robot>
