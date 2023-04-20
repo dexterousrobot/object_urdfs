@@ -12,7 +12,7 @@ def get_data_path():
     return resdir
 
 
-def get_model_list():
+def get_object_list():
     data_path = get_data_path()
     subdirs = get_immediate_subdirectories(data_path)
     model_list = []
