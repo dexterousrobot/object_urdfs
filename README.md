@@ -283,7 +283,7 @@ import os
 import time
 import pybullet as p
 import pybullet_data
-from pybullet_object_models import ycb_objects
+from object_urdfs import ycb_objects
 
 ## Open GUI and set pybullet_data in the path
 p.connect(p.GUI)
